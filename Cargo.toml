@@ -1,0 +1,13 @@
+[package]
+name = "yelling-pinapl"
+version = "0.1.0"
+authors = ["MD <1917406+mdcfe@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = "0.10"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+chrono = "0.4"
+parse_duration = "2.1"
